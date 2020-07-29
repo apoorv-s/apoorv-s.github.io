@@ -1,0 +1,57 @@
+.navbar {
+	margin-bottom: 0;
+    border-radius: 0;
+		}
+
+.top-buffer {
+	margin-top:20px;
+		}
+
+.embed-responsive-16by4{
+	padding-bottom: 25%;
+		}
+
+footer {
+    background-color: black;
+    color: white;
+     padding: 15px;
+    	}
+
+ .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+  color: white
+}
+
+.sketch_dim {
+  width: 100%;
+}
+
+a {
+  color: hotpink  ;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .navbar-fixed-top {
+        position: relative;
+        top: auto;
+    }
+    .navbar-collapse {
+        max-height: none;
+    }
+    body {
+        margin: 0;
+    }
+}
