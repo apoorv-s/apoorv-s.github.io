@@ -2,3 +2,15 @@
 layout: default
 title: Publications
 ---
+
+{% for item in site.data.check %}
+	<h2>{{item.Title}}</h2>
+	<p>{{item.Description}}</p>
+	{% for YearNumber in item.YearWise %}
+		<h3>{{YearNumber.Year}}</h3>
+		{% for pubs in YearNumber.sub %}
+			<ul>{{pubs.Details}}</ul>
+		{% endfor %}
+	{% endfor %}
+	<div style="margin-top: 6em; margin-bottom: 6em"><hr class="ProjectsDivider"></div>
+{% endfor %}

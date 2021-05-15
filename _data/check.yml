@@ -1,45 +1,32 @@
-- Research:
-  Title: Research
-  SectionDescription: This section describes some of the research projects I have undertaken in the past.
-  Sub:
-    - Title: Mechanical Metamaterials, Non-Affine Deformations and Deployable Structures
-      StartDate: August 2018
-      EndDate: July 2020
-      Guide: Prof. Mandar M. Inamdar
-      GuideLink: https://www.civil.iitb.ac.in/~minamdar/
-      Institution: IIT Bombay
-      ProjectDescription: To be Done
-      ImgSrc: assets/images/Apoorv_home.jpg
-    - Title: check 1
-      StartDate: 11
-      EndDate: 12
-      Guide: 
-      ProjectDescription: Check Checj Check
-    - Title: check 1
-      StartDate: 11
-      EndDate: 12
-      Guide: 
-      ProjectDescription: Check Checj Check
+- JournalPapers:
+  Title: Journal Papers
+  Description: This section enlists the Journal papers of which I am a part.
+  YearWise:
+    - Year: 2021
+      sub:
+        - Details: Active Structures
+    - Year: 2022
+      sub:
+        - Details: More Active Structures
 
-- Technical:
-  Title: Technical
-  SectionDescription: This section describes some of the Technical projects I have undertaken in the past.
-  Sub:
-    - Title: Mechanical Metamaterials, Non-Affine Deformations and Deployable Structures
-      StartDate: August 2018
-      EndDate: July 2020
-      Guide: Prof. Mandar M. Inamdar
-      GuideLink: https://www.civil.iitb.ac.in/~minamdar/
-      Institution: IIT Bombay
-      ProjectDescription: To be Done
-      ImgSrc: assets/images/Apoorv_home.jpg
-    - Title: check 1
-      StartDate: 11
-      EndDate: 12
-      Guide: 
-      ProjectDescription: Check Checj Check
-    - Title: check 1
-      StartDate: 11
-      EndDate: 12
-      Guide: 
-      ProjectDescription: Check Checj Check
+- Conferences:
+  Title: Conferences Papers and Presentations
+  Description: This section enlists the Conferences Papers and Presentations of which I am a part.
+  YearWise:
+    - Year: 2021
+      sub:
+        - Details: Active Structures
+    - Year: 2022
+      sub:
+        - Details: More Active Structures
+
+- Other:
+  Title: Others Reports
+  Description: This section enlists the Others Reports of which I am a part.
+  YearWise:
+    - Year: 2021
+      sub:
+        - Details: Active Structures
+    - Year: 2022
+      sub:
+        - Details: More Active Structures
