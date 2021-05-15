@@ -2,3 +2,64 @@
 layout: default
 title: Projects
 ---
+
+
+
+{% for item in site.data.projects.Research %}
+	<h1>{{item.Title}}</h1>
+	<p>{{item.SectionDescription}}</p>
+	{% for projects in item.Sub %}
+		<div class="row">
+			<div class="col-md-4">
+				<img src={{projects.ImgSrc}} alt="Image" style="margin-top: 10px">
+			</div>
+			<div class="col-md-8">
+				<h3>{{projects.Title}}</h3>
+				<h4>{{projects.StartDate}} - {{projects.EndDate}}</h4>
+				<h4>Guide: <a href={{projects.GuideLink}}>{{projects.Guide}}</a>, {{projects.Institution}}</h4> 
+				<p>{{projects.ProjectDescription}}</p>
+			</div>
+		</div>
+	{% endfor %}
+{% endfor %}
+
+<div style="margin-top: 6em; margin-bottom: 6em"><hr class="ProjectsDivider"></div>
+
+{% for item in site.data.projects.Technical %}
+	<h1>{{item.Title}}</h1>
+	<p>{{item.SectionDescription}}</p>
+	{% for projects in item.Sub %}
+		<div class="row">
+			<div class="col-md-8">
+				<h3>{{projects.Title}}</h3>
+				<h4>{{projects.StartDate}} - {{projects.EndDate}}</h4>
+				<h4>Chief Advisor: <a href={{projects.AdvisorLink}}>{{projects.Advisor}}</a>, {{projects.Institution}}</h4> 
+				<p>{{projects.ProjectDescription}}</p>
+			</div>
+			<div class="col-md-4">
+				<img src={{projects.ImgSrc}} alt="Image" style="margin-top: 10px">
+			</div>
+		</div>
+	{% endfor %}
+{% endfor %}
+
+<div style="margin-top: 6em; margin-bottom: 6em"><hr class="ProjectsDivider"></div>
+
+{% for item in site.data.projects.Misc %}
+	<h1>{{item.Title}}</h1>
+	<p>{{item.SectionDescription}}</p>
+	{% for projects in item.Sub %}
+		<div class="row">
+			<div class="col-md-4">
+				<img src={{projects.ImgSrc}} alt="Image" style="margin-top: 10px">
+			</div>
+			<div class="col-md-8">
+				<h3>{{projects.Title}}</h3>
+				<h4>{{projects.StartDate}} - {{projects.EndDate}}</h4>
+				<h4>Chief Advisor: <a href={{projects.GuideLink}}>{{projects.Guide}}</a>, {{projects.Institution}}</h4> 
+				<p>{{projects.ProjectDescription}}</p>
+			</div>
+		</div>
+	{% endfor %}
+{% endfor %}
+

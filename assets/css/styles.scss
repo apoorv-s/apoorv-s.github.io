@@ -2,7 +2,6 @@
 ---
 
 @import "main";
-@import "base/base";
 @import "reset";
 @import "variables";
 @import "bootstrap";
@@ -281,6 +280,14 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+.current{
+  text-decoration: underline;
+}
+
+hr.ProjectsDivider{
+  border: 1px solid gray;
 }
 
 @import "svgicons";

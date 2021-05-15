@@ -1,0 +1,70 @@
+
+Research:
+- Title: Research Projects
+- SectionDescription: This section describes some of the research projects I have undertaken in the past.
+  Sub:
+    - Title: Mechanical Metamaterials, Non-Affine Deformations and Deployable Structures
+      StartDate: August 2018
+      EndDate: July 2020
+      Guide: Prof. Mandar M. Inamdar
+      GuideLink: https://www.civil.iitb.ac.in/~minamdar/
+      Institution: IIT Bombay
+      ProjectDescription: To be Done
+      ImgSrc: assets/images/Apoorv_home.jpg
+    - Title: check 1
+      StartDate: 11
+      EndDate: 12
+      Guide: 
+      ProjectDescription: Check Checj Check
+    - Title: check 1
+      StartDate: 11
+      EndDate: 12
+      Guide: 
+      ProjectDescription: Check Checj Check
+
+
+Technical:
+- Title: Technical Projects
+- SectionDescription: This section describes some of the technical projects I have undertaken in the past.
+  Sub:
+    - Title: "Project Leaf: Team Shunya"
+      StartDate: August 2018
+      EndDate: July 2020
+      Advisor: Prof. Mandar M. Inamdar
+      AdvisorLink: https://www.civil.iitb.ac.in/~minamdar/
+      Institution: IIT Bombay
+      ProjectDescription: To be Done
+      ImgSrc: assets/images/Apoorv_home.jpg
+    - Title: "Project Solarise: Team Shunya"
+      StartDate: August 2018
+      EndDate: July 2020
+      Advisor: Prof. Mandar M. Inamdar
+      AdvisorLink: https://www.civil.iitb.ac.in/~minamdar/
+      Institution: IIT Bombay
+      ProjectDescription: To be Done
+      ImgSrc: assets/images/Apoorv_home.jpg
+
+
+Misc:
+- Title: Miscellaneous Projects
+- SectionDescription: This section describes some of the Miscellaneous projects I have undertaken in the past.
+  Sub:
+    - Title: Mechanical Metamaterials, Non-Affine Deformations and Deployable Structures
+      StartDate: August 2018
+      EndDate: July 2020
+      Guide: Prof. Mandar M. Inamdar
+      GuideLink: https://www.civil.iitb.ac.in/~minamdar/
+      Institution: IIT Bombay
+      ProjectDescription: To be Done
+      ImgSrc: assets/images/Apoorv_home.jpg
+    - Title: check 1
+      StartDate: 11
+      EndDate: 12
+      Guide: 
+      ProjectDescription: Check Checj Check
+    - Title: check 1
+      StartDate: 11
+      EndDate: 12
+      Guide: 
+      ProjectDescription: Check Checj Check
+
