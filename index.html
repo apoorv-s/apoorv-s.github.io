@@ -17,3 +17,16 @@ title: Home - Apoorv Srivastava
 </div>
 
 
+
+<div class="panel panel-info" style="margin-top: 10px">
+	<div class="panel-heading">{{site.data.home.LowPanelHeading}}</div>
+	<div class="panel-body">
+		{% for item in site.data.home.LowPanelContent limit:5 %}
+			<div style="margin-top: 0.5em; margin-bottom: 0.5em">{{item.Date}}: {{item.Content}}</div>
+		{% endfor %}
+	</div>
+</div>
+
+
+
+
