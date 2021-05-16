@@ -8,7 +8,7 @@ title: Blog
 
 {% assign sorted-tags = site.tags | sort %}
 {% for tag in sorted-tags reversed %}
-	<hr>
+	<div style="margin-top: 2em; margin-bottom: 2em"><hr class="ProjectsDivider"></div>
  	<h2>{{ tag[0] }}</h2>
   	<ul>
     {% for post in tag[1] %}

@@ -5,3 +5,5 @@ Gemfile
 Gemfile.lock
 .gitattributes
 _site/blog.html
+_site/publications.html
+_site/blog.html
