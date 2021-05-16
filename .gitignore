@@ -1,0 +1,6 @@
+_site
+.jekyll-cache
+.bundle
+Gemfile
+Gemfile.lock
+.gitattributes
