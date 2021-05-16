@@ -5,8 +5,9 @@ title: Blog
 
 <h1>Posts</h1>
 
+
 {% assign sorted-tags = site.tags | sort %}
-{% for tag in sorted-tags %}
+{% for tag in sorted-tags reversed %}
 	<hr>
  	<h2>{{ tag[0] }}</h2>
   	<ul>
@@ -14,24 +15,10 @@ title: Blog
     	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
   		{{post.date | date_to_string}} <br>
   		<div style="margin-bottom: 1em">{{post.category}}</div>
-<!--   		{% if post.ExcerptOut %}
-  		{{ post.excerpt }} See Guvava.md for details on this.
-  		{% endif %} -->
+  		{% if post.ExcerptOut %}
+  		  {{ post.excerpt }}
+  		{% endif %}
     {% endfor %}
   	</ul>
 {% endfor %}
-
-https://shopify.github.io/liquid/basics/types/#number
-<!-- {% for tag in site.categories %}
-	<hr>
- 	<h2>{{ tag[0] }}</h2>
-  	<ul>
-    {% for post in tag[1] %}
-    	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-  		{{post.date | date_to_string}}
-  		{{ post.excerpt }}
-    {% endfor %}
-  	</ul>
-{% endfor %}
- -->
 
