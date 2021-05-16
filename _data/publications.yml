@@ -1,0 +1,32 @@
+- JournalPapers:
+  Title: Journal Papers
+  Description: This section enlists the Journal papers of which I am a part.
+  YearWise:
+    - Year: 2021
+      sub:
+        - Details: Active Structures
+    - Year: 2022
+      sub:
+        - Details: More Active Structures
+
+- Conferences:
+  Title: Conferences Papers and Presentations
+  Description: This section enlists the Conferences Papers and Presentations of which I am a part.
+  YearWise:
+    - Year: 2021
+      sub:
+        - Details: Active Structures
+    - Year: 2022
+      sub:
+        - Details: More Active Structures
+
+- Other:
+  Title: Others Reports
+  Description: This section enlists the Others Reports of which I am a part.
+  YearWise:
+    - Year: 2021
+      sub:
+        - Details: Active Structures
+    - Year: 2022
+      sub:
+        - Details: More Active Structures
