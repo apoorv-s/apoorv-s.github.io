@@ -3,39 +3,37 @@ layout: default
 title: Publications
 ---
 
-{% for item in site.data.publications.JournalPapers %}
-	<h2>{{item.Title}}</h2>
-	<p>{{item.Description}}</p>
-	{% for YearNumber in item.YearWise %}
-		<h3>{{YearNumber.Year}}</h3>
-		{% for pubs in YearNumber.sub %}
-			<ul>{{pubs.Details}}</ul>
-		{% endfor %}
+
+<h2>{{site.data.publications.JournalPapers.Title}}</h2>
+<p>{{site.data.publications.JournalPapers.Description}}</p>
+{% for YearNumber in site.data.publications.JournalPapers.YearWise %}
+	<h3>{{YearNumber.Year}}</h3>
+	{% for pubs in YearNumber.sub %}
+		<ul>{{pubs.Details}}</ul>
+	{% endfor %}
+{% endfor %}
+
+
+<div style="margin-top: 4em; margin-bottom: 4em"><hr class="ProjectsDivider"></div>
+
+
+<h2>{{site.data.publications.Conferences.Title}}</h2>
+<p>{{site.data.publications.Conferences.Description}}</p>
+{% for YearNumber in site.data.publications.Conferences.YearWise %}
+	<h3>{{YearNumber.Year}}</h3>
+	{% for pubs in YearNumber.sub %}
+		<ul>{{pubs.Details}}</ul>
 	{% endfor %}
 {% endfor %}
 
 <div style="margin-top: 4em; margin-bottom: 4em"><hr class="ProjectsDivider"></div>
 
-{% for item in site.data.publications.Conferences %}
-	<h2>{{item.Title}}</h2>
-	<p>{{item.Description}}</p>
-	{% for YearNumber in item.YearWise %}
-		<h3>{{YearNumber.Year}}</h3>
-		{% for pubs in YearNumber.sub %}
-			<ul>{{pubs.Details}}</ul>
-		{% endfor %}
-	{% endfor %}
-{% endfor %}
 
-<div style="margin-top: 4em; margin-bottom: 4em"><hr class="ProjectsDivider"></div>
-
-{% for item in site.data.publications.Other %}
-	<h2>{{item.Title}}</h2>
-	<p>{{item.Description}}</p>
-	{% for YearNumber in item.YearWise %}
-		<h3>{{YearNumber.Year}}</h3>
-		{% for pubs in YearNumber.sub %}
-			<ul>{{pubs.Details}}</ul>
-		{% endfor %}
+<h2>{{site.data.publications.Other.Title}}</h2>
+<p>{{site.data.publications.Other.Description}}</p>
+{% for YearNumber in site.data.publications.Other.YearWise %}
+	<h3>{{YearNumber.Year}}</h3>
+	{% for pubs in YearNumber.sub %}
+		<ul>{{pubs.Details}}</ul>
 	{% endfor %}
 {% endfor %}

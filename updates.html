@@ -1,19 +1,10 @@
-<!DOCTYPE html>
-<!DOCTYPE html>
-<html lang="en-US">
+---
+layout: default
+title: Updates
+---
 
-<head>
-	<title>Updates &mdash; Apoorv Srivastava</title>
-	<meta charset="utf-8">
-
-</head>
-<body>
-
-	<div class="panel panel-success">
-		<div class="panel-body">Current semester at IIT Bombay posponed till 31st may following the COVID-19 pandemic.</div>
-	</div>
-	
-	
-
-</body>
-</html>
+<h1>Updates</h1>
+{% for item in site.data.home.LowPanelContent %}
+	<hr>
+	<div style="margin-top: 0.5em; margin-bottom: 0.5em">{{item.Date}}: {{item.Content}}</div>
+{% endfor %}

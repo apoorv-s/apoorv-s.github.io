@@ -1,7 +1,7 @@
 
 Research:
-- Title: Research Projects
-- SectionDescription: This section describes some of the research projects I have undertaken in the past.
+  Title: Research Projects
+  SectionDescription: This section describes some of the research projects I have undertaken in the past.
   Sub:
     - Title: Mechanical Metamaterials, Non-Affine Deformations and Deployable Structures
       StartDate: August 2018
@@ -24,8 +24,8 @@ Research:
 
 
 Technical:
-- Title: Technical Projects
-- SectionDescription: This section describes some of the technical projects I have undertaken in the past.
+  Title: Technical Projects
+  SectionDescription: This section describes some of the technical projects I have undertaken in the past.
   Sub:
     - Title: "Project Leaf: Team Shunya"
       StartDate: August 2018
@@ -46,8 +46,8 @@ Technical:
 
 
 Misc:
-- Title: Miscellaneous Projects
-- SectionDescription: This section describes some of the Miscellaneous projects I have undertaken in the past.
+  Title: Miscellaneous Projects
+  SectionDescription: This section describes some of the Miscellaneous projects I have undertaken in the past.
   Sub:
     - Title: Mechanical Metamaterials, Non-Affine Deformations and Deployable Structures
       StartDate: August 2018

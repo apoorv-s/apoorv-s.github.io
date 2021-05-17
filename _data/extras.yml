@@ -1,0 +1,32 @@
+ManagerialExp:
+  Title: Managerial Experiences
+  Description: Check check chekc
+  sub:
+  - Position: Mentor
+    Organization:  Department Academic Mentorship Program
+    StartDate: April 2018
+    EndDate: July 2020
+    Description: Check
+  - Position: Check
+    StartDate: Check
+    EndDate: Check
+    Description: Check
+  - Position: Check
+    StartDate: Check
+    EndDate: Check
+    Description: Check
+
+
+Quotes:
+  Title: Chosen Echoes
+  Description: This is a list of Quotes that I encountered and found impactful.
+  QuotesUrl: /quotes.html
+  sub:
+    - QuoteContent: No sunk cost
+      Origin: Habit 
+      Date: 12 April 2002
+
+
+Sketches:
+  Title: Sketches
+  Description: Sketch Sketch Sketch

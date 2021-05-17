@@ -3,4 +3,30 @@ layout: default
 title: Extras
 ---
 
-<p>{{site.data.check.description}}</p>
+<h1>{{site.data.extras.Quotes.Title}}</h1>
+<h4>{{site.data.extras.Quotes.Description}}</h4>
+<hr>
+{% for item in site.data.extras.Quotes.sub limit:5 %}
+	<h5><em>{{item.QuoteContent}}</em></h5>
+	<p align="right">-{{item.Origin}}, {{item.Date}}</p>
+	<hr>
+{% endfor %}
+<a href={{site.data.extras.Quotes.QuotesUrl}}>All Quotes</a>
+
+<div style="margin-top: 4em; margin-bottom: 4em"><hr class="ProjectsDivider"></div>
+
+<h1>{{site.data.extras.Sketches.Title}}</h1>
+<h4>{{site.data.extras.Sketches.Description}}</h4>
+
+<div style="margin-top: 4em; margin-bottom: 4em"><hr class="ProjectsDivider"></div>
+
+<h1>{{site.data.extras.ManagerialExp.Title}}</h1>
+<p>{{site.data.extras.ManagerialExp.Description}}</p>
+{% for item in site.data.extras.ManagerialExp.sub %}
+	<h3>{{item.Position}}</h3>
+	<h4>{{item.StartDate}} - {{item.EndDate}}</h4>
+	<h4>{{item.Organization}}</h4>
+	<p>{{item.Description}}</p>
+	<hr>
+{% endfor %}
+
