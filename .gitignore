@@ -4,7 +4,7 @@ _site
 Gemfile
 Gemfile.lock
 .gitattributes
-_site/*
-.jekyll-cache/*
+_site/**
+.jekyll-cache/**
 
 
