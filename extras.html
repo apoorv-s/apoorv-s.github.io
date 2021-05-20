@@ -8,7 +8,7 @@ title: Extras
 <hr>
 {% for item in site.data.extras.Quotes.sub limit:5 %}
 	<h5><em>{{item.QuoteContent}}</em></h5>
-	<p align="right">-{{item.Origin}}, {{item.Date}}</p>
+	<p align="right">-<em>{{item.Origin}} {{item.Date}}</em></p>
 	<hr>
 {% endfor %}
 <a href={{site.data.extras.Quotes.QuotesUrl}}>All Quotes</a>
@@ -19,7 +19,9 @@ title: Extras
 <h4>{{site.data.extras.Sketches.Description}}</h4>
 <div class = "row">
 	{% for item in site.data.extras.Sketches.sub %}
-		<div class="col-md-6" style="padding: 1mm"><img src="{{item.SketchUrl}}" class="img-thumbnail"></div>
+		<div class="column">
+			<div style="padding: 1mm"><img src="{{item.SketchUrl}}" class="img-thumbnail"></div>
+		</div>
 	{% endfor %}
 </div>
 

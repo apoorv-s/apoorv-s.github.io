@@ -1,32 +1,31 @@
 JournalPapers:
   Title: Journal Papers
-  Description: This section enlists the Journal papers of which I am a part.
+  Description: 
   YearWise:
-    - Year: 2021
-      sub:
-        - Details: Active Structures
-    - Year: 2022
-      sub:
-        - Details: More Active Structures
+    # - Year: 2021
+    #   sub:
+    #     - Details: Active Structures
+    # - Year: 2022
+    #   sub:
+    #     - Details: More Active Structures
 
 Conferences:
   Title: Conferences Papers and Presentations
-  Description: This section enlists the Conferences Papers and Presentations of which I am a part.
+  Description: 
   YearWise:
-    - Year: 2021
-      sub:
-        - Details: Active Structures
-    - Year: 2022
-      sub:
-        - Details: More Active Structures
+    # - Year: 2021
+    #   sub:
+    #     - Details: Active Structures
+    # - Year: 2022
+    #   sub:
+    #     - Details: More Active Structures
 
 Other:
   Title: Others Reports
-  Description: This section enlists the Others Reports of which I am a part.
+  Description: This section enlists the reports of projects undertaken by me but were not formally published.
   YearWise:
-    - Year: 2021
+    - Year: 2020
       sub:
-        - Details: Active Structures
-    - Year: 2022
-      sub:
-        - Details: More Active Structures
+        - Description: Undergraduate Thesis
+          Title: Metamaterials, Non-affine Deformations and Deployable Structures
+          ReportUrl: https://drive.google.com/file/d/1lzCj5DWmZXeStIvyKp5kroHY-0XWRBvP/view?usp=sharing 

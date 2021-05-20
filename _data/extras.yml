@@ -1,37 +1,55 @@
 ManagerialExp:
   Title: Managerial Experiences
-  Description: Check check chekc
+  Description: 
   sub:
+  - Position: Structures and Materials Subsystem Head
+    Organization: "<a href='https://civiliitb.wordpress.com/about-us/'>Project Leaf: Team Shunya</a>"
+    StartDate: August 2018
+    EndDate: January 2020
+    Description: >
+      Headed a team of 10+ students working towards developing structural modules for buildings capable of being stored in 
+      compact shapes and be deployed on demand.
+  - Position: Design Engineer
+    Organization: "<a href='https://civiliitb.wordpress.com/about-us/'>Project Leaf: Team Shunya</a>"
+    StartDate: July 2017
+    EndDate: August 2018
+    Description: >
+      Part of the team that represented India in 
+      <a href="https://www.solardecathlon.gov/international-china.html">Solar Decathlon China (SDC)</a>
+      2018 in Dezhou, China. The team built an 1800 sq-ft solar-powered fully-furnished net-positive energy house
+      within 12 days and was awarded with the 'Best Participation Award' for its effciency and dedication during 
+      the competition.
   - Position: Mentor
-    Organization:  Department Academic Mentorship Program
+    Organization: <a href="https://civiliitb.wordpress.com/about-us/">Department Academic Mentorship Program</a>
     StartDate: April 2018
     EndDate: July 2020
-    Description: Check
-  - Position: Check
-    StartDate: Check
-    EndDate: Check
-    Description: Check
-  - Position: Check
-    StartDate: Check
-    EndDate: Check
-    Description: Check
+    Description: Mentored junior students, in consultation with a faculty, in their acadmeic and co-curricular pursuits.
 
 
 Quotes:
-  Title: Chosen Echoes
-  Description: This is a list of Quotes that I encountered and found impactful.
+  Title: Chosen Quotes
+  Description: This is a list of lovely lines and quotes that I came across.
   QuotesUrl: /quotes.html
   sub:
-    - QuoteContent: No sunk cost
-      Origin: Habit 
-      Date: 12 April 2002
+    - QuoteContent: Nothing in life is as important as you think it is, while you are thinking about it
+      Origin: Daniel Kahneman, Thinking, Fast and Slow 
+      Date: 
+    - QuoteContent: Odd as it may seem, I am my remembering self, and the experiencing self, who does my living, is like a stranger to me.
+      Origin: Daniel Kahneman, Thinking Fast and Slow
+      Date: 
+    - QuoteContent: You are too concerned with what was and what will be.
+      Origin: Grand Master Oogway, Kung Fu Panda
+      Date: 
+    - QuoteContent: "There is a saying: Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present."
+      Origin: Grand Master Oogway, Kung Fu Panda
+      Date: 
 
 
 Sketches:
   Title: Sketches
-  Description: Sketch Sketch Sketch
+  Description: These are some of my sketches.
   sub:
-    - SketchUrl: assets/images/Apoorv_home.jpg 
-    - SketchUrl: assets/images/Apoorv_home.jpg
-    - SketchUrl: assets/images/Apoorv_home.jpg
-    - SketchUrl: assets/images/Apoorv_home.jpg
+    - SketchUrl: assets/images/sketches/0.jpg
+    - SketchUrl: assets/images/sketches/1.jpg
+    - SketchUrl: assets/images/sketches/2.jpg
+    - SketchUrl: assets/images/sketches/3.jpg

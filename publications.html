@@ -8,8 +8,14 @@ title: Publications
 <p>{{site.data.publications.JournalPapers.Description}}</p>
 {% for YearNumber in site.data.publications.JournalPapers.YearWise %}
 	<h3>{{YearNumber.Year}}</h3>
+	<hr>
 	{% for pubs in YearNumber.sub %}
-		<ul>{{pubs.Details}}</ul>
+		<ul>
+			<li>
+				{{pubs.Details}}
+			</li>
+		</ul>
+		<hr>
 	{% endfor %}
 {% endfor %}
 
@@ -21,8 +27,14 @@ title: Publications
 <p>{{site.data.publications.Conferences.Description}}</p>
 {% for YearNumber in site.data.publications.Conferences.YearWise %}
 	<h3>{{YearNumber.Year}}</h3>
+	<hr>
 	{% for pubs in YearNumber.sub %}
-		<ul>{{pubs.Details}}</ul>
+		<ul>
+			<li>
+				{{pubs.Details}}
+			</li>
+		</ul>
+		<hr>
 	{% endfor %}
 {% endfor %}
 
@@ -33,7 +45,13 @@ title: Publications
 <p>{{site.data.publications.Other.Description}}</p>
 {% for YearNumber in site.data.publications.Other.YearWise %}
 	<h3>{{YearNumber.Year}}</h3>
+	<hr>
 	{% for pubs in YearNumber.sub %}
-		<ul>{{pubs.Details}}</ul>
+		<ul>
+			<li>
+				<a href={{pubs.ReportUrl}}>{{pubs.Title}}</a> ({{pubs.Description}})
+			</li>
+		</ul>
+		<hr>
 	{% endfor %}
 {% endfor %}
