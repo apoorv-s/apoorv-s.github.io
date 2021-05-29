@@ -21,7 +21,7 @@ There are five YAML files in _data_ directory and _config.yml_ file in the root 
 
 * _`projects.yml`_ : This file has three sections corresponding to Research Projects, Technical Project, and Miscellaneous Projects. New entries corresponding to the projects is to be made in _sub_ directory of respective section. Options availaible for project entries in different sections are shown in the sample project entries. Kindly note that sequence of projects is important and project that appears first in the list will appear first on the webpage.
 
-* _`publications.yml`_ : This data file is similar in structure to the _projects.yml_ file however the _sub_ directory is under the _year_ entry to display the list in chronological order on the webpage. Entries for a specific year are to be made in _sub_ directory of that year. Options availaible corresponding to different sections are shown in their respective examples.![PublicationPage_Entries](https://user-images.githubusercontent.com/29497016/120059952-5d5b4780-c072-11eb-831f-fb2185353498.PNG)
+* _`publications.yml`_ : This data file is similar in structure to the _projects.yml_ file however the _sub_ directory is under the _year_ entry of the _yearwise_ entry to display the list in chronological order on the webpage. Entries for a specific year are to be made in _sub_ directory of that year. Options availaible corresponding to different sections are shown in their respective examples.![PublicationPage_Entries](https://user-images.githubusercontent.com/29497016/120059952-5d5b4780-c072-11eb-831f-fb2185353498.PNG)
 
 
 * _`extras.yml`_ : The page enlists the hobbies and other experiences and can be customized using the options availaible in the sample entries.
