@@ -6,6 +6,10 @@ This is a personal webpage based on Jekyll and Liquid inspired from the [Barry C
 
 ---
 
+To use this repository for your github pages based webpage: fork this repository, rename it to username.github.io and customize the content and you are ready to go.
+
+---
+
 ### Key Feature
 All the personal information including projects and other activities go into the YAML files in the _data_ directory and _config.yml_ file making the web page very easy to customize.
 
