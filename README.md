@@ -6,7 +6,7 @@ This is a personal webpage based on Jekyll and Liquid inspired from the [Barry C
 
 ---
 
-To use this repository for your github pages based webpage: fork this repository, rename it to <username>.github.io and customize the content and you are ready to go.
+To use this repository for your github pages based webpage: fork this repository, rename it to username.github.io and customize the content and you are ready to go.
 
 ---
 
