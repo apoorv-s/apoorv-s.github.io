@@ -84,15 +84,17 @@ Technical:
       ImgSrc: assets/images/projects/Solarise.jpg
 
 
-# Misc:
-#   Title: Miscellaneous Projects
-#   SectionDescription:
-#   Sub:
-#     - Title: 
-#       StartDate: 
-#       EndDate: 
-#       Guide: 
-#       GuideLink: 
-#       Institution: 
-#       ProjectDescription: 
-#       ImgSrc: 
+Misc:
+  Title: Miscellaneous Projects
+  SectionDescription:
+  Sub:
+    - Title: Jekyll & Liquid based Webpage
+      StartDate: April 2021
+      EndDate: May 2021
+      Guide: 
+      GuideLink: 
+      Institution: 
+      ProjectDescription: >
+       A personal webpage based on Jekyll and Liquid developed to be hoasted on GitHub Pages. The source code can be found 
+       <a href = "https://github.com/apoorv-s/apoorv-s.github.io">here</a>.
+      ImgSrc: assets/images/projects/JekyllWebpage.png

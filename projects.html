@@ -68,7 +68,9 @@ title: Projects
 		<div class="col-md-8">
 			<h3>{{projects.Title}}</h3>
 			<h4>{{projects.StartDate}} - {{projects.EndDate}}</h4>
-			<h4>Chief Advisor: <a href={{projects.GuideLink}}>{{projects.Guide}}</a>, {{projects.Institution}}</h4> 
+			{% if projects.Guide %}
+				<h4>Chief Advisor: <a href={{projects.GuideLink}}>{{projects.Guide}}</a>, {{projects.Institution}}</h4>
+			{% endif %}			 
 			<p>{{projects.ProjectDescription}}</p>
 			{% if projects.ReportLink %}
 				Report: <a href={{projects.ReportLink}}>{{projects.Title}}</a>
