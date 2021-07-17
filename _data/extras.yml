@@ -31,24 +31,24 @@ Quotes:
   Description: This is a list of lovely lines and quotes that I came across.
   QuotesUrl: /quotes.html
   sub:
-    - QuoteContent: Nothing in life is as important as you think it is, while you are thinking about it
-      Origin: Daniel Kahneman, Thinking, Fast and Slow 
+    - QuoteContent: "Nothing in life is as important as you think it is, while you are thinking about it"
+      Origin: "Daniel Kahneman, Thinking, Fast and Slow"
       Date: 
-    - QuoteContent: Odd as it may seem, I am my remembering self, and the experiencing self, who does my living, is like a stranger to me.
-      Origin: Daniel Kahneman, Thinking Fast and Slow
+    - QuoteContent: "Odd as it may seem, I am my remembering self, and the experiencing self, who does my living, is like a stranger to me."
+      Origin: "Daniel Kahneman, Thinking Fast and Slow"
       Date: 
-    - QuoteContent: You are too concerned with what was and what will be.
-      Origin: Grand Master Oogway, Kung Fu Panda
+    - QuoteContent: "You are too concerned with what was and what will be."
+      Origin: "Grand Master Oogway, Kung Fu Panda"
       Date: 
-    - QuoteContent: There is a saying: Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present.
-      Origin: Grand Master Oogway, Kung Fu Panda
+    - QuoteContent: "There is a saying: Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present."
+      Origin: "Grand Master Oogway, Kung Fu Panda"
       Date: 
-    - QuoteContent: Rules are there for a reason. You are allowed to break them if you are a master.
-      Origin: Jordan B Peterson
+    - QuoteContent: "Rules are there for a reason. You are allowed to break them if you are a master."
+      Origin: "Jordan B Peterson"
       Date: 
-    - QuoteContent: It's funny how subjective funny is.
-      Origin: Me
-      Date: Some Random Afternoon
+    - QuoteContent: "It's funny how subjective funny is."
+      Origin: "Me"
+      Date: "Some Random Afternoon"
 
 Sketches:
   Title: Sketches
