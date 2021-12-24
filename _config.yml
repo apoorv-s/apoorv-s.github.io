@@ -8,3 +8,5 @@ footer-links:
   linkedin: apoorv-sri
   twitter: ap00rv_sri
   
+plugins:
+  - jekyll-katex

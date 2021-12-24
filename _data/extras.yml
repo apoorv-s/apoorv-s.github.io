@@ -52,7 +52,15 @@ Quotes:
     - QuoteContent: "The best is the enemy of the good"
       Origin: "Voltaire"
       Date: 
-
+    - QuoteContent: "Until you work as hard as those you admire, don't explain away their success as luck."
+      Origin: "James Clear, Atomic Habits"
+      Date: 
+    - QuoteContent: "Everyone believes in the normal approximation, the experimenters because they think it is a mathematical theorem, the mathematicians because they think it is an experimental fact."
+      Origin: "G. Lippman, French Physicist"
+      Date: 
+    - QuoteContent: 
+      Origin: 
+      Date: 
 Sketches:
   Title: Sketches
   Description: These are some of my sketches.
