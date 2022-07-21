@@ -58,6 +58,15 @@ Quotes:
     - QuoteContent: "Everyone believes in the normal approximation, the experimenters because they think it is a mathematical theorem, the mathematicians because they think it is an experimental fact."
       Origin: "G. Lippman, French Physicist"
       Date: 
+    - QuoteContent: "No vestige of a beginning, no prospect of an end."
+      Origin: "James Hutton"
+      Date: 
+    - QuoteContent: "Flawed I may be, vindictive, I'm not."
+      Origin: 
+      Date: 
+    - QuoteContent: "Stupidity is brief and straightforward, while intelligence is tortuous and sneaky. Intelligence is crooked, while stupidity is honest."
+      Origin: "Ivan Karamazov in The Brothers Karamazov by Fyodor Dostoevsky"
+      Date: 
 Sketches:
   Title: Sketches
   Description: These are some of my sketches.
@@ -66,3 +75,4 @@ Sketches:
     - SketchUrl: assets/images/sketches/1.jpg
     - SketchUrl: assets/images/sketches/2.jpg
     - SketchUrl: assets/images/sketches/3.jpg
+    - SketchUrl: assets/images/sketches/4.jpg

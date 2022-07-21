@@ -4,23 +4,20 @@ title: Publications
 ---
 
 
-<h2>{{site.data.publications.JournalPapers.Title}}</h2>
-<p>{{site.data.publications.JournalPapers.Description}}</p>
-{% for YearNumber in site.data.publications.JournalPapers.YearWise %}
-	<h3>{{YearNumber.Year}}</h3>
+<!-- <h2>{{site.data.publications.JournalPapers.Title}}</h2> -->
+<!-- <p>{{site.data.publications.JournalPapers.Description}}</p> -->
+<hr>
+{% for paper in site.data.publications.JournalPapers %}
+	<!-- <h3>{{YearNumber.Year}}</h3> -->
+	<ul>
+		<p><a href={{paper.link}}>{{paper.title}}</a></p>
+		<p>{{paper.authors}}</p>
+	</ul>
 	<hr>
-	{% for pubs in YearNumber.sub %}
-		<ul>
-			<li>
-				{{pubs.Details}}
-			</li>
-		</ul>
-		<hr>
-	{% endfor %}
 {% endfor %}
 
 
-<div style="margin-top: 4em; margin-bottom: 4em"><hr class="ProjectsDivider"></div>
+<!-- <div style="margin-top: 4em; margin-bottom: 4em"><hr class="ProjectsDivider"></div>
 
 
 <h2>{{site.data.publications.Conferences.Title}}</h2>
@@ -54,4 +51,4 @@ title: Publications
 		</ul>
 		<hr>
 	{% endfor %}
-{% endfor %}
+{% endfor %} -->

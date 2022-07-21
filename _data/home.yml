@@ -1,36 +1,26 @@
 Intro: >
   <h1>Hello!</h1>
-  <p>I'm Apoorv Srivastava.</p>
+  <p>Apoorv here.</p>
   
-  <p>I am a PhD student in Mechanical Engineering at <a href = "https://www.stanford.edu/">Stanford University</a>. I graduated from 
-  from <a href="https://www.iitb.ac.in">IIT Bombay</a> with a Bachelor's Degree in Civil Engineering. I also worked as an Executive Trainee in 
-  TATA Projects Ltd. from Oct-20 to Aug-21.</p>
-  
-  <p>During my studies, I have developed keen interest in research in the field of mechanics. More specifically, 
-  I am interested in studying how underlying structure of the materials gives rise to its mechanical properties and 
-  how can it be altered to tailor the materials behavior. My CV can be found <a href = assets/documents/CV_Apoorv_Srivastava.pdf>here</a>. 
-  In addition to research, I like running, reading, playing (almost every sport, though Badminton and Soccer top the list), and sketching. </p>
+  <p>I am a PhD student in Mechanical Engineering at <a href = "https://www.stanford.edu/">
+  Stanford University</a>. I am very fortunate to have <a href = "https://tartakovsky.stanford.edu/">Prof. Daniel Tartakovsky</a>
+  as my advisor along with <a href = "https://me.stanford.edu/people/eric-darve">Prof. Eric Darve</a> as my co-advisor. I graduated from 
+  <a href="https://www.iitb.ac.in">IIT Bombay</a> with a Bachelor's Degree in 2020. You can find me <a href="mailto:apoorv9600@gmail.com">here</a>.
 
-Imageurl: assets/images/Apoorv_home.jpg
 
-PanelHeading: Research Interests
+# LowPanelHeading: Updates
 
-PanelContent: >
- "Solid Mechanics, Computational Mechanics, Numerical Methods, Applied Mathematics"
+# LowPanelContent:
+# - Date: 5 Sept 2021
+#   Content: Started as a PhD student in Mechanical Engineering at Stanford University.
+# - Date: 5 Oct 2020
+#   Content: Joined TATA Projects Limited as an Executive Trainee (ET).
+# - Date: 23 Aug 2020
+#   Content: Awarded with Institute Silver Medal for ranking first in B.Tech. + Honors category in Civil Engineering Batch of 2020.
+# - Date: 23 Aug 2020
+#   Content: Graduated from IIT Bombay with a B.Tech. + Honors degree in Civil Engineering.
 
-LowPanelHeading: Updates
-
-LowPanelContent:
-- Date: 5 Sept 2021
-  Content: Started as a PhD student in Mechanical Engineering at Stanford University.
-- Date: 5 Oct 2020
-  Content: Joined TATA Projects Limited as an Executive Trainee (ET).
-- Date: 23 Aug 2020
-  Content: Awarded with Institute Silver Medal for ranking first in B.Tech. + Honors category in Civil Engineering Batch of 2020.
-- Date: 23 Aug 2020
-  Content: Graduated from IIT Bombay with a B.Tech. + Honors degree in Civil Engineering.
-
-LowPanelUrl: /updates.html
+# LowPanelUrl: /updates.html
   
 
 

@@ -1,31 +1,26 @@
 JournalPapers:
-  Title: Journal Papers
-  Description: 
-  YearWise:
-    # - Year: 2021
-    #   sub:
-    #     - Details: Active Structures
-    # - Year: 2022
-    #   sub:
-    #     - Details: More Active Structures
+  - title: Design and testing of a low-energy and -carbon prototype structure that adapts to loading through shape morphing
+    authors: Arka P. Reksowardojo, Gennaro Senatore, Apoorv Srivastava, Chris Carroll, Ian F. C. Smith
+    link: https://doi.org/10.1016/j.ijsolstr.2022.111629
+    
 
-Conferences:
-  Title: Conferences Papers and Presentations
-  Description: 
-  YearWise:
-    # - Year: 2021
-    #   sub:
-    #     - Details: Active Structures
-    # - Year: 2022
-    #   sub:
-    #     - Details: More Active Structures
+# Conferences:
+#   Title: Conferences Papers and Presentations
+#   Description: 
+#   YearWise:
+#     # - Year: 2021
+#     #   sub:
+#     #     - Details: Active Structures
+#     # - Year: 2022
+#     #   sub:
+#     #     - Details: More Active Structures
 
-Other:
-  Title: Others Reports
-  Description: This section enlists the reports of projects undertaken by me but were not formally published.
-  YearWise:
-    - Year: 2020
-      sub:
-        - Description: Undergraduate Thesis
-          Title: Metamaterials, Non-affine Deformations and Deployable Structures
-          ReportUrl: https://drive.google.com/file/d/1lzCj5DWmZXeStIvyKp5kroHY-0XWRBvP/view?usp=sharing 
+# Other:
+#   Title: Others Reports
+#   Description: This section enlists the reports of projects undertaken by me but were not formally published.
+#   YearWise:
+#     - Year: 2020
+#       sub:
+#         - Description: Undergraduate Thesis
+#           Title: Metamaterials, Non-affine Deformations and Deployable Structures
+#           ReportUrl: https://drive.google.com/file/d/1lzCj5DWmZXeStIvyKp5kroHY-0XWRBvP/view?usp=sharing 
