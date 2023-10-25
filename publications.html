@@ -6,22 +6,43 @@ title: Publications
 
 <!-- <h2>{{site.data.publications.JournalPapers.Title}}</h2> -->
 <!-- <p>{{site.data.publications.JournalPapers.Description}}</p> -->
+
+<h3>Research Articles</h3>
 <hr>
 {% for paper in site.data.publications.JournalPapers %}
 	<!-- <h3>{{YearNumber.Year}}</h3> -->
 	<ul>
 		<p><a href={{paper.link}}>{{paper.title}}</a></p>
 		<p>{{paper.authors}}</p>
+		<p>{{paper.JournalName}}</p>
+		{% if paper.GiithubRepoLink %}
+		<p><a href={{paper.GiithubRepoLink}}>{{"Github Repository"}}</a></p>
+		{% endif %}
 	</ul>
 	<hr>
 {% endfor %}
 
+<br/>
 
-<!-- <div style="margin-top: 4em; margin-bottom: 4em"><hr class="ProjectsDivider"></div>
+<h3>Conference Presentations</h3>
+<hr>
+{% for presentation in site.data.publications.ConferencePresentations %}
+	<ul>
+		<p>{{presentation.title}}</p>
+		<p><a href={{presentation.ConferenceLink}}>{{presentation.ConferenceName}}</a></p>
+	</ul>
+	<hr>
+{% endfor %}
+
+<!-- <div style="margin-top: 4em; margin-bottom: 4em"><hr class="ProjectsDivider"></div> -->
 
 
+<!-- 
 <h2>{{site.data.publications.Conferences.Title}}</h2>
 <p>{{site.data.publications.Conferences.Description}}</p>
+
+<h3>Conference Presentations</h3>
+<hr>
 {% for YearNumber in site.data.publications.Conferences.YearWise %}
 	<h3>{{YearNumber.Year}}</h3>
 	<hr>
@@ -33,8 +54,8 @@ title: Publications
 		</ul>
 		<hr>
 	{% endfor %}
-{% endfor %}
-
+{% endfor %} -->
+<!-- 
 <div style="margin-top: 4em; margin-bottom: 4em"><hr class="ProjectsDivider"></div>
 
 

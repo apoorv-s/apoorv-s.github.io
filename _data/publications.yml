@@ -1,19 +1,35 @@
 JournalPapers:
-  - title: Design and testing of a low-energy and -carbon prototype structure that adapts to loading through shape morphing
+  - title: Feature-informed data assimilation (2023)
+    authors: Apoorv Srivastava, Wei Kang, Daniel M. Tartakovsky 
+    link: https://doi.org/10.1016/j.jcp.2023.112499
+    GiithubRepoLink: https://github.com/apoorv-s/FIDA
+    JournalName: Journal of Computational Physics 494, 112499
+
+  - title: Design and testing of a low-energy and -carbon prototype structure that adapts to loading through shape morphing (2022)
     authors: Arka P. Reksowardojo, Gennaro Senatore, Apoorv Srivastava, Chris Carroll, Ian F. C. Smith
     link: https://doi.org/10.1016/j.ijsolstr.2022.111629
-    
+    JournalName: International Journal of Solids and Structures 252, 111629
+  
+  - title: Design and control of a prototype structure that adapts to loading through large shape changes (2020)
+    authors: Arka P. Reksowardojo, Gennaro Senatore, Apoorv Srivastava, Ian F. C. Smith, Henry Unterreiner, Chris Carroll
+    link: https://doi.org/10.1016/j.ifacol.2020.12.1596
+    JournalName: IFAC-PapersOnLine 53 (2), 8377-8382
+
+ConferencePresentations:
+  - title: Inference of Neuroactivity from Measurements of Nutrient Concentration
+    ConferenceName: 17th U.S. National Congress on Computational Mechanics
+    ConferenceLink: https://17.usnccm.org/
 
 # Conferences:
 #   Title: Conferences Papers and Presentations
 #   Description: 
 #   YearWise:
-#     # - Year: 2021
-#     #   sub:
-#     #     - Details: Active Structures
-#     # - Year: 2022
-#     #   sub:
-#     #     - Details: More Active Structures
+    # - Year: 2021
+    #   sub:
+    #     - Details: Active Structures
+    # - Year: 2022
+    #   sub:
+    #     - Details: More Active Structures
 
 # Other:
 #   Title: Others Reports
