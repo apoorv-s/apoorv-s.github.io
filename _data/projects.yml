@@ -1,0 +1,146 @@
+ResearchProject:
+  - title: Parameter Estimation in Stiff Systems
+    institution: Los Alamos National Lab
+    dates: July 2023 - September 2023
+    description: Description of Project 1
+    position: Graduate Student Researcher
+    advisors:
+      - advisor1:
+        advisorName: Dr. Balasubramanya T. Nadiga
+        advisorLink: https://public.lanl.gov/balu/
+      # - advisor2:
+      #   advisorName: Prof. Daniel Tartakovsky
+      #   advisorLink: https://public.lanl.gov/balu/ 
+    projectPicture: assets/images/Apoorv_home2.jpg
+
+  - title: Feature-Informed Data Assimilation
+    institution: Stanford University
+    dates: April 2022 - February 2023
+    description: Description of Project 2
+    advisors:
+      - advisor1:
+        advisorName: Prof. Wei Kang
+        advisorLink: https://nps.edu/faculty-profiles/-/cv/wkang
+      - advisor2:
+        advisorName: Prof. Daniel Tartakovsky
+        advisorLink: https://profiles.stanford.edu/daniel-tartakovsky
+    projectPicture: assets/images/Apoorv_home2.jpg
+
+  - title: Active Structures - Design and Control
+    institution: Applied Computing and Mechanics Laboratory, EPFL
+    dates: May 2019 - July 2019
+    description: Description of Project 2
+    advisors:
+      - advisor1:
+        advisorName: Dr. Gennaro Senatore
+        advisorLink: https://www.gennarosenatore.com/profile/
+      - advisor2:
+        advisorName: Prof. Ian F. C. Smith
+        advisorLink: https://people.epfl.ch/ian.smith?lang=en
+    projectPicture: assets/images/Apoorv_home2.jpg
+
+  - title: Inference of Neuroactivity from Measurements of Nutrient Concentration
+    institution: Stanford University
+    dates: January 2023 - Present
+    description: Description of Project 2
+    advisors:
+      - advisor1:
+        advisorName: Dr. Franck Plouraboué
+        advisorLink: https://franckplouraboue.net/
+      - advisor2:
+        advisorName: Prof. Daniel Tartakovsky
+        advisorLink: https://profiles.stanford.edu/daniel-tartakovsky
+    projectPicture: assets/images/Apoorv_home2.jpg
+
+  - title: Vectorized FIDA
+    institution: Stanford University
+    dates: October 2023 - Present
+    description: Description of Project 2
+    advisors:
+      - advisor1:
+        advisorName: Prof. Eric Darve
+        advisorLink: https://profiles.stanford.edu/eric-darve
+      - advisor2:
+        advisorName: Prof. Daniel Tartakovsky
+        advisorLink: https://profiles.stanford.edu/daniel-tartakovsky
+    projectPicture: assets/images/Apoorv_home2.jpg
+
+  - title: System Identification under Binary Observations
+    institution: Stanford University
+    dates: October 2023 - Present
+    description: Description of Project 2
+    advisors:
+      - advisor1:
+        advisorName: Prof. Wei Kang
+        advisorLink: https://nps.edu/faculty-profiles/-/cv/wkang
+      - advisor2:
+        advisorName: Prof. Daniel Tartakovsky
+        advisorLink: https://profiles.stanford.edu/daniel-tartakovsky
+    projectPicture: assets/images/Apoorv_home2.jpg
+
+  - title: Kinetic Defect for Hyperbolic Conservation Laws
+    institution: Stanford University
+    dates: January 2023 - August 2023
+    description: Description of Project 2
+    advisors:
+      - advisor1:
+        advisorName: Prof. Daniel Tartakovsky
+        advisorLink: https://profiles.stanford.edu/daniel-tartakovsky
+    projectPicture: assets/images/Apoorv_home2.jpg
+
+  - title: Mechanical Metamaterials, Non-Affine Deformations and Deployable Structures
+    institution: IIT Bombay
+    dates: August 2018 - May 2020
+    description: Description of Project 2
+    advisors:
+      - advisor1:
+        advisorName: Prof. Mandar M. Inamdar
+        advisorLink: https://www.civil.iitb.ac.in/~minamdar/
+    projectPicture: assets/images/Apoorv_home2.jpg
+
+  - title: Stress Ratio based Structural Optimization using Genetic Algorithm
+    institution: Stanford University
+    dates: July 2017 - August 2018
+    description: Description of Project 2
+    advisors:
+      - advisor1:
+        advisorName: Prof. Venkata S. K. Delhi
+        advisorLink: https://www.civil.iitb.ac.in/~ctam/pages/faculty/venkata.html
+      - advisor2:
+        advisorName: Prof. Yogesh M. Desai
+        advisorLink: https://www.civil.iitb.ac.in/~desai/
+    projectPicture: assets/images/Apoorv_home2.jpg
+
+
+AcademicProject:
+  - title: Diffusion Model for Learned Optimizers 
+    description: Description of Project 1
+    dates: September 2023 - December 2023
+    className: Deep Generative Models
+    univName: Stanford University
+    classLink: https://deepgenerativemodels.github.io/
+    projectPicture: assets/images/Apoorv_home2.jpg
+
+  - title: Optimal Control for Grid Balancing
+    description: Description of Project 1
+    dates: April 2023 - June 2023
+    className: Optimal & Learning-based Control
+    univName: Stanford University
+    classLink: https://stanfordasl.github.io//aa203/sp2223/
+    projectPicture: assets/images/Apoorv_home2.jpg
+
+  - title: Stress Analysis using Finite Element Method
+    description: Description of Project 1
+    dates: January 2019 - May 2019
+    className: Finite Element Method
+    univName: IIT Bombay
+    classLink: 
+    projectPicture: assets/images/Apoorv_home2.jpg
+
+  - title: Shape of the Strongest Column
+    description: Description of Project 1
+    dates: July 2018 - November 2018
+    className: Optimization
+    univName: IIT Bombay
+    classLink: 
+    projectPicture: assets/images/Apoorv_home2.jpg

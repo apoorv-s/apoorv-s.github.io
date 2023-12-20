@@ -1,0 +1,53 @@
+---
+layout: default
+title: Research
+---
+
+<h3>Research Projects</h3>
+<hr>
+{% for project in site.data.projects.ResearchProject %}
+	<ul>
+        <div class="row">
+            <div class="col-md-4">
+                <img src={{project.projectPicture}} alt="{{project.title}}" width="400" height="400" class="img-responsive img-rounded">
+            </div>
+            <div class="col-md-8">
+            <h3>{{project.title}}</h3>
+            <h5>{% if project.position %}{{project.position}}{% endif %}</h5>
+            <h5>{{project.institution}} ({{project.dates}})</h5>
+            <p>Advisor(s): 
+            {% for advisor in project.advisors %}
+                <a href="{{advisor.advisorLink}}">{{advisor.advisorName}}</a>, 
+            {% endfor %}          
+            </p>
+            {{project.description}}
+            </div>
+        </div>
+	</ul>
+	<hr>
+{% endfor %}
+
+<br/>
+
+<h3>Academic Projects</h3>
+<hr>
+{% for project in site.data.projects.AcademicProject %}
+	<ul>
+        <div class="row">
+            <div class="col-md-8">
+            <h3>{{project.title}}</h3>
+            <p> {{project.univName}} ({{project.dates}})
+            {% if project.classLink %}
+                <p>Course : <a href="{{project.classLink}}">{{project.className}}</a></p>
+                {% else %}
+                <p>Course : {{project.className}}, {{project.univName}}</p>
+            {% endif %}
+            {{project.description}}
+            </div>
+            <div class="col-md-4">
+                <img src={{project.projectPicture}} alt="{{project.title}}" width="400" height="400" class="img-responsive img-rounded">
+            </div>
+        </div>
+	</ul>
+	<hr>
+{% endfor %}
