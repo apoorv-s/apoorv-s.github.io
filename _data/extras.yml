@@ -1,16 +1,39 @@
 ManagerialExp:
-  Title: Managerial Experiences
+  Title: Experiences
   Description: 
   sub:
+  - Position: Graduate Student Researcher 
+    Organization: Los Alamos National Lab
+    StartDate: July 2023
+    EndDate: September 2023
+    Description: >
+      Graduate research intern at <a href='https://www.lanl.gov/'>Los Alamos National Lab (LANL)</a> in the Computational Physics & Methods Group (CCS-2) group.
+
+  - Position: Mentor
+    Organization: ME PhD peer mentorship program, Stanford University
+    StartDate: September 2022
+    EndDate: August 2023
+    # Description: >
+    #   Headed a team of 10+ students working towards developing structural modules for buildings capable of being stored in 
+    #   compact shapes and be deployed on demand.
+
   - Position: Structures and Materials Subsystem Head
-    Organization: "<a href='https://civiliitb.wordpress.com/about-us/'>Project Leaf: Team Shunya</a>"
+    Organization: "<a href='https://www.teamshunya.com/'>Project Leaf: Team Shunya</a>"
     StartDate: August 2018
     EndDate: January 2020
     Description: >
       Headed a team of 10+ students working towards developing structural modules for buildings capable of being stored in 
       compact shapes and be deployed on demand.
+
+  - Position: Undergraduate Student Researcher 
+    Organization: École Polytechnique Fédérale de Lausanne
+    StartDate: May 2019
+    EndDate: July 2019
+    Description: >
+      Undergraduate research intern at <a href='https://archiveweb.epfl.ch/imac.epfl.ch/'>Applied Computing and Mechanics Laboratory (IMAC)</a>, EPFL, Switzerland.
+
   - Position: Design Engineer
-    Organization: "<a href='https://civiliitb.wordpress.com/about-us/'>Project Leaf: Team Shunya</a>"
+    Organization: "<a href='https://www.teamshunya.com/'>Project Solarize: Team Shunya</a>"
     StartDate: July 2017
     EndDate: August 2018
     Description: >
@@ -20,7 +43,7 @@ ManagerialExp:
       within 12 days and was awarded with the 'Best Participation Award' for its effciency and dedication during 
       the competition.
   - Position: Mentor
-    Organization: <a href="https://civiliitb.wordpress.com/about-us/">Department Academic Mentorship Program</a>
+    Organization: <a href="https://civiliitb.wordpress.com/about-us/">Department Academic Mentorship Program</a>, IIT Bombay
     StartDate: April 2018
     EndDate: July 2020
     Description: Mentored junior students, in consultation with a faculty, in their acadmeic and co-curricular pursuits.
