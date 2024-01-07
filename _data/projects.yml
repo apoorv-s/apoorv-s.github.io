@@ -126,7 +126,7 @@ AcademicProject:
     projectPicture: assets/images/projects/DDPMs.jpg
 
   - title: Optimal Control for Grid Balancing
-    description:  This work considers an electric power grid connected to multiple houses equipped with solar electric systems and rechargeable batteries and focuses on optimizing the charge-discharge policy of rechargeable batteries under uncertainties and variability in the demand and solar power generated. The discretized problem is solved using Model Predictive Control (MPC) in conjunction with convex programming. A linear approximation of the battery dynamics is utilized to ensure feasibility and safety constraints. (<a href = "assets/documents/projectReports/AA_203_Project.pdf">Project Report</a>)
+    description:  This work considers an electric power grid connected to multiple houses equipped with solar electric systems and rechargeable batteries and focuses on optimizing the charge-discharge policy of rechargeable batteries under uncertainties and variability in the demand and solar power generated. The discretized problem is solved using Model Predictive Control (MPC) in conjunction with convex programming. A linear approximation of the battery dynamics is utilized to ensure feasibility and safety constraints. (<a href = "assets/documents/projectReports/AA_203_Project.pdf">Project Report</a>, <a href = "https://github.com/apoorv-s/GridOptimization_MPC">Github</a>)
     dates: April 2023 - June 2023
     className: Optimal & Learning-based Control
     univName: Stanford University
