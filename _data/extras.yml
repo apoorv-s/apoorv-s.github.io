@@ -98,12 +98,22 @@ Quotes:
     - QuoteContent: "Stupidity is brief and straightforward, while intelligence is tortuous and sneaky. Intelligence is crooked, while stupidity is honest."
       Origin: "Ivan Karamazov in The Brothers Karamazov by Fyodor Dostoevsky"
       Date: 
+    - QuoteContent: "If you can't let it go, it's not worth holding on to."
+      Origin: "Armin, Attack on Titan"
+      Date: 
+    - QuoteContent: "The impediment to action advances action, what stands in the way becomes the way."
+      Origin: "Marcus Aurelius"
+      Date: 
 Sketches:
   Title: Sketches
   Description: These are some of my sketches.
   sub:
     - SketchUrl: assets/images/sketches/0.jpg
-    - SketchUrl: assets/images/sketches/1.jpg
     - SketchUrl: assets/images/sketches/2.jpg
-    - SketchUrl: assets/images/sketches/3.jpg
+    - SketchUrl: assets/images/sketches/6.jpg
     - SketchUrl: assets/images/sketches/4.jpg
+    - SketchUrl: assets/images/sketches/7.jpg
+    - SketchUrl: assets/images/sketches/5.jpg
+    - SketchUrl: assets/images/sketches/8.jpg
+    - SketchUrl: assets/images/sketches/3.jpg
+    - SketchUrl: assets/images/sketches/1.jpg

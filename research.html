@@ -20,6 +20,7 @@ title: Research
                 <a href="{{advisor.advisorLink}}">{{advisor.advisorName}}</a>, 
             {% endfor %}          
             </p>
+            <h5>{% if project.papers %}{{project.papers}}{% endif %}</h5>
             {{project.description}}
             </div>
         </div>
@@ -42,6 +43,7 @@ title: Research
                 {% else %}
                 <p>Course : {{project.className}}, {{project.univName}}</p>
             {% endif %}
+            <h5>{% if project.papers %}{{project.papers}}{% endif %}</h5>
             {{project.description}}
             </div>
             <div class="col-md-6">

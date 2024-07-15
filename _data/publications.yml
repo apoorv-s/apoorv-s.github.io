@@ -1,4 +1,19 @@
 JournalPapers:
+  - title: Computable Kinetic Defect Measure for Scalar Hyperbolic Conservation Laws (Submitted)
+    authors: Apoorv Srivastava, Daniel M Tartakovsky
+    # link: https://doi.org/10.48550/arXiv.2402.06377
+    # JournalName: SPE Norway Subsurface Conference, Bergen, Norway
+
+  - title: High-precision geosteering via reinforcement learning and particle filters (Submitted)
+    authors: Ressi Bonti Muhammad, Apoorv Srivastava, Sergey Alyaev, Reidar Brumer Bratvold, Daniel M Tartakovsky
+    link: https://doi.org/10.48550/arXiv.2402.06377
+    # JournalName: SPE Norway Subsurface Conference, Bergen, Norway
+
+  - title: Enhancing Geosteering With AI - Integrating a Decision-Making Robot Into a Cloud-Based Environment and Benchmarking Against Human Experts (2024)
+    authors: Ressi Bonti Muhammad, Yasaman Cheraghi, Sergey Alyaev, Apoorv Srivastava, Reidar Brumer Bratvold
+    link: https://doi.org/10.2118/218444-MS
+    JournalName: SPE Norway Subsurface Conference, Bergen, Norway
+
   - title: Feature-informed data assimilation (2023)
     authors: Apoorv Srivastava, Wei Kang, Daniel M. Tartakovsky 
     link: https://doi.org/10.1016/j.jcp.2023.112499
