@@ -121,7 +121,7 @@ ResearchProject:
 AcademicProject:
   - title: Diffusion Model for Learned Optimizers 
     description: The project focuses on solving ill-conditioned inverse problems prevalent in engineering using Denoising Diffusion Probabilistic Models (DDPMs). Unlike deterministic optimization, our probabilistic approach captures the diverse solutions inherent in these problems. By leveraging conditional DDPMs, it offer a principled method for sampling multiple solutions, providing versatility and reliability. Our work demonstrates promising results in estimating 3D human pose from 2D keypoints, showcasing the effectiveness of our transformer-based design. 
-    papers: (<a href = "assets/documents/projectReports/cs236_project_final_report.pdf">Project Report</a>, <a href = "https://github.com/chaitanya100100/DiffOpt">Github</a>)
+    papers: (<a href = "assets/documents/projectReports/cs236_project_final_report.pdf">Project Report</a>, <a href = "https://github.com/apoorv-s/Denoising-Diffusion-for-Inverse-Problems">Github</a>)
     dates: September 2023 - December 2023
     className: Deep Generative Models
     univName: Stanford University
