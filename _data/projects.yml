@@ -1,4 +1,17 @@
 ResearchProject:
+  - title: Imporving Particle Filters using Deep Probabilistic Models
+    institution: Stanford University
+    dates: January 2024 - Present
+    description: The research centers on utilizing deep probabilistic models to enhance the efficiency of particle filters while addressing the well-known issue of filter divergence in high-dimensional state spaces.
+    advisors:
+      - advisor1:
+        advisorName: Prof. Eric Darve
+        advisorLink: https://nps.edu/faculty-profiles/-/cv/wkang
+      - advisor2:
+        advisorName: Prof. Daniel Tartakovsky
+        advisorLink: https://profiles.stanford.edu/daniel-tartakovsky
+    projectPicture: assets/images/project.jpg
+
   - title: System Identification under Binary Observations
     institution: Stanford University
     dates: October 2023 - Present

@@ -1,12 +1,11 @@
 name: Apoorv Srivastava
-description: 3rd Year PhD Candidate, Stanford University
+description: 4th Year PhD Candidate, Stanford University
 avatar: "/assets/images/Apoorv_home.jpg"
 
 footer-links:
   email: apoorv9600@gmail.com
   github: apoorv-s
   linkedin: apoorv-sri
-  twitter: ap00rv_sri
   
 plugins:
   - jekyll-katex
