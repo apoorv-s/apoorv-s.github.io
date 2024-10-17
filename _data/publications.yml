@@ -31,6 +31,10 @@ JournalPapers:
     JournalName: IFAC-PapersOnLine 53 (2), 8377-8382
 
 ConferencePresentations:
+  - title: Feature-Informed Data Assimilation - Making sense of binary-sensor observation
+    ConferenceName: 1st SIAM Northern and Central California Sectional Conference (NCC24)
+    ConferenceLink: https://sites.google.com/view/siam-ncc/siam-ncc-conference-2024?authuser=0/
+
   - title: Inference of Neuroactivity from Measurements of Nutrient Concentration
     ConferenceName: 17th U.S. National Congress on Computational Mechanics
     ConferenceLink: https://17.usnccm.org/

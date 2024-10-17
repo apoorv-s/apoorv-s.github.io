@@ -36,6 +36,20 @@ ResearchProject:
         advisorLink: https://profiles.stanford.edu/daniel-tartakovsky
     projectPicture: assets/images/project.jpg
 
+  - title: Feature-Informed Data Assimilation
+    institution: Stanford University
+    dates: April 2022 - January 2023
+    papers: (<a href = "https://doi.org/10.1016/j.jcp.2023.112499">Paper</a>, <a href = "https://github.com/apoorv-s/FIDA">Github</a>)
+    description: Introduced a mathematical formulation of feature-informed data assimilation (FIDA) that leverages information from distinctive events, such as shock waves, level curves, wavefronts, and peak values in dynamical systems to estimate state variables and unknown parameters. Unlike conventional data assimilation methods, FIDA employs a set-valued functional as its observation operator, incorporating a search process over a function of state variables. The FIDA's ability to accurately estimate model parameters under noisy feature observations using Particle Filter (PF) is demonstrated through three numerical experiments.
+    advisors:
+      - advisor1:
+        advisorName: Prof. Wei Kang
+        advisorLink: https://nps.edu/faculty-profiles/-/cv/wkang
+      - advisor2:
+        advisorName: Prof. Daniel Tartakovsky
+        advisorLink: https://profiles.stanford.edu/daniel-tartakovsky
+    projectPicture: assets/images/projects/FIDA.jpg
+
   - title: Metabolite Dynamics in the Brain
     institution: Stanford University
     dates: January 2023 - Present
@@ -49,19 +63,19 @@ ResearchProject:
         advisorLink: https://profiles.stanford.edu/daniel-tartakovsky
     projectPicture: assets/images/projects/NeuralActivityDA.jpg
 
-  - title: Feature-Informed Data Assimilation
+  - title: Identifying reaction dynamics in the Hyporheic zone
     institution: Stanford University
-    dates: April 2022 - January 2023
-    papers: (<a href = "https://doi.org/10.1016/j.jcp.2023.112499">Paper</a>)
-    description: Introduced a mathematical formulation of feature-informed data assimilation (FIDA) that leverages information from distinctive events, such as shock waves, level curves, wavefronts, and peak values in dynamical systems to estimate state variables and unknown parameters. Unlike conventional data assimilation methods, FIDA employs a set-valued functional as its observation operator, incorporating a search process over a function of state variables. The FIDA's ability to accurately estimate model parameters under noisy feature observations using Particle Filter (PF) is demonstrated through three numerical experiments.
+    dates: July 2024 - Present
+    description: Developing regression models to capture the chemical dynamics within the hyporheic zone (the interface between the riverbed and groundwater) by integrating experimental data with known physical principles. These models are being used to estimate key parameters and quantify uncertainty, enhancing the understanding of complex subsurface processes. (image courtsey - Trout Unlimited Canada Facebook page) 
     advisors:
       - advisor1:
-        advisorName: Prof. Wei Kang
-        advisorLink: https://nps.edu/faculty-profiles/-/cv/wkang
+        advisorName: Prof. Daniele Tonina
+        advisorLink: https://www.uidaho.edu/engr/departments/cee/our-people/faculty/daniele-tonina
       - advisor2:
         advisorName: Prof. Daniel Tartakovsky
         advisorLink: https://profiles.stanford.edu/daniel-tartakovsky
-    projectPicture: assets/images/projects/FIDA.jpg
+    projectPicture: assets/images/projects/HyporheicZone.jpg
+
 
   # TODO
   # - title: High-Precision Geosteering using RL and Particle Filters
