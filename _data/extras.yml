@@ -2,6 +2,11 @@ ManagerialExp:
   Title: Experiences
   Description: 
   sub:
+  - Position: Mentor
+    Organization: ME PhD peer mentorship program, Stanford University
+    StartDate: October 2024
+    EndDate: Present
+
   - Position: Graduate Student Researcher 
     Organization: Los Alamos National Lab
     StartDate: July 2023
@@ -13,17 +18,11 @@ ManagerialExp:
     Organization: ME PhD peer mentorship program, Stanford University
     StartDate: September 2022
     EndDate: August 2023
-    # Description: >
-    #   Headed a team of 10+ students working towards developing structural modules for buildings capable of being stored in 
-    #   compact shapes and be deployed on demand.
 
   - Position: Executive Trainee
     Organization: TATA Projects Ltd.
     StartDate: October 2020
     EndDate: September 2021
-    # Description: >
-    #   Headed a team of 10+ students working towards developing structural modules for buildings capable of being stored in 
-    #   compact shapes and be deployed on demand.
 
   - Position: Structures and Materials Subsystem Head
     Organization: "<a href='https://www.teamshunya.com/'>Project Leaf: Team Shunya</a>"
@@ -56,6 +55,44 @@ ManagerialExp:
     EndDate: July 2020
     Description: Mentored junior students, in consultation with a faculty, in their acadmeic and co-curricular pursuits.
 
+HonorsAndAwards:
+  Title: Honors and Awards
+  Description: 
+  sub:
+    - Title: SIAM Student travel award
+      Date: October 2024
+      Institution: SIAM
+      Description: Student travel award to attend the 1st SIAM North and Central California Section Meeting.
+    
+    - Title: Mechanical Engineering Department Fellowship
+      Date: September 2021 - August 2022
+      Institution: Stanford University
+      Description: Fellowship awarded by the Mechanical Engineering Department at Stanford University for the academic year 2021-2022.
+
+    - Title: Institute Silver Medal
+      Date: August 2020
+      Institution: IIT Bombay
+      Description: Awarded with Institute Silver Medal for ranking first in B.Tech. + Honors category in Civil Engineering Batch of 2020.
+
+    - Title: Undergraduate Research Award
+      Date: May 2020
+      Institution: IIT Bombay
+      Description: Awarded with the Undergraduate Research Award for outstanding research work during the undergraduate studies.
+
+    - Title: Foundation for Excellence Scholarship
+      Date: August 2016 - May 2020
+      Institution: Foundation For Excellence (FFE)
+      Description: Recieved scholarship from FFE for undergraduate studies at IIT Bombay.
+
+    - Title: Swiss National Science Foundation (SNSF) Scholarship
+      Date: May 2019 - July 2019
+      Institution: Swiss National Science Foundation (SNSF)
+      Description: Recieved scholarship from SNSF for supporting undergraduate research internship at EPFL, Switzerland.
+
+    - Title: SC Meherotra Prize
+      Date: May 2018
+      Institution: IIT Bombay
+      Description: Awarded with the SC Meherotra Prize for securing the highest GPA in the class.
 
 Quotes:
   Title: Chosen Quotes
@@ -104,6 +141,8 @@ Quotes:
     - QuoteContent: "The impediment to action advances action, what stands in the way becomes the way."
       Origin: "Marcus Aurelius"
       Date: 
+
+
 Sketches:
   Title: Sketches
   Description: These are some of my sketches.
