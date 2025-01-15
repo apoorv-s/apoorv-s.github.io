@@ -1,4 +1,9 @@
 JournalPapers:
+  - title: Information Worth and Assimilation of Binary Data (Submitted)
+    authors: Apoorv Srivastava, Wei Kang, Daniel M. Tartakovsky
+    # link: https://doi.org/10.48550/arXiv.2402.06377
+    # JournalName: SPE Norway Subsurface Conference, Bergen, Norway
+
   - title: Computable Kinetic Defect Measure for Scalar Hyperbolic Conservation Laws (Submitted)
     authors: Apoorv Srivastava, Daniel M Tartakovsky
     # link: https://doi.org/10.48550/arXiv.2402.06377
