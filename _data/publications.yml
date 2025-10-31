@@ -1,18 +1,18 @@
 JournalPapers:
-  - title: Information Worth and Assimilation of Binary Data (Submitted)
+  - title: Information Worth and Assimilation of Binary Data (2025)
     authors: Apoorv Srivastava, Wei Kang, Daniel M. Tartakovsky
-    # link: https://doi.org/10.48550/arXiv.2402.06377
-    # JournalName: SPE Norway Subsurface Conference, Bergen, Norway
+    link: https://doi.org/10.1137/24M1720159
+    JournalName: SIAM Journal on Scientific Computing
 
   - title: Computable Kinetic Defect Measure for Scalar Hyperbolic Conservation Laws (Submitted)
     authors: Apoorv Srivastava, Daniel M Tartakovsky
     # link: https://doi.org/10.48550/arXiv.2402.06377
     # JournalName: SPE Norway Subsurface Conference, Bergen, Norway
 
-  - title: High-precision geosteering via reinforcement learning and particle filters (Submitted)
+  - title: High-precision geosteering via reinforcement learning and particle filters (2025)
     authors: Ressi Bonti Muhammad, Apoorv Srivastava, Sergey Alyaev, Reidar Brumer Bratvold, Daniel M Tartakovsky
-    link: https://doi.org/10.48550/arXiv.2402.06377
-    # JournalName: SPE Norway Subsurface Conference, Bergen, Norway
+    link: https://doi.org/10.1007/s10596-025-10352-y
+    JournalName: Computational Geosciences
 
   - title: Enhancing Geosteering With AI - Integrating a Decision-Making Robot Into a Cloud-Based Environment and Benchmarking Against Human Experts (2024)
     authors: Ressi Bonti Muhammad, Yasaman Cheraghi, Sergey Alyaev, Apoorv Srivastava, Reidar Brumer Bratvold
@@ -23,7 +23,7 @@ JournalPapers:
     authors: Apoorv Srivastava, Wei Kang, Daniel M. Tartakovsky 
     link: https://doi.org/10.1016/j.jcp.2023.112499
     GiithubRepoLink: https://github.com/apoorv-s/FIDA
-    JournalName: Journal of Computational Physics 494, 112499
+    JournalName: Journal of Computational Physics
 
   - title: Design and testing of a low-energy and -carbon prototype structure that adapts to loading through shape morphing (2022)
     authors: Arka P. Reksowardojo, Gennaro Senatore, Apoorv Srivastava, Chris Carroll, Ian F. C. Smith
@@ -36,6 +36,14 @@ JournalPapers:
     JournalName: IFAC-PapersOnLine 53 (2), 8377-8382
 
 ConferencePresentations:
+  - title: Feature-Informed Data Assimilation - Making sense of binary-sensor observation
+    ConferenceName: SIAM Conference on Control and Its Applications (CT25)
+    ConferenceLink: https://www.siam.org/conferences-events/past-event-archive/ct25/
+
+  - title: Improving Particle Filters Using Deep Probabilistic Models
+    ConferenceName: SIAM Conference on Computational Science and Engineering (CSE25)
+    ConferenceLink: https://www.siam.org/conferences-events/past-event-archive/cse25/
+    
   - title: Feature-Informed Data Assimilation - Making sense of binary-sensor observation
     ConferenceName: 1st SIAM Northern and Central California Sectional Conference (NCC24)
     ConferenceLink: https://sites.google.com/view/siam-ncc/siam-ncc-conference-2024?authuser=0/

@@ -3,6 +3,39 @@ layout: default
 title: Research
 ---
 
+<h1>Selected Projects</h1>
+<hr>
+{% for project in site.data.projects.SelectedProject %}
+	<ul>
+        <div class="row">
+            <div class="col-md-6">
+                <img src={{project.projectPicture}} alt="{{project.title}}" width="400" height="400" class="img-responsive img-rounded">
+            </div>
+            <div class="col-md-6">
+            <h3>{{project.title}}</h3>
+            <h5>{% if project.position %}{{project.position}}{% endif %}</h5>
+            <h5>{{project.institution}} ({{project.dates}})</h5>
+            {% if project.advisors %}
+            <p>Advisor(s): 
+            {% for advisor in project.advisors %}
+                <a href="{{advisor.advisorLink}}">{{advisor.advisorName}}</a>, 
+            {% endfor %}          
+            </p>
+            {% endif %}
+            {% if project.classLink %}
+                <p>Course : <a href="{{project.classLink}}">{{project.className}}</a></p>
+            {% endif %}
+            <h5>{% if project.papers %}{{project.papers}}{% endif %}</h5>
+            {{project.description}}
+            </div>
+        </div>
+	</ul>
+	<hr>
+{% endfor %}
+
+<br/>
+
+
 <h1>Research Projects</h1>
 <hr>
 {% for project in site.data.projects.ResearchProject %}

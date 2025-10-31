@@ -2,9 +2,9 @@ ManagerialExp:
   Title: Experiences
   Description: 
   sub:
-  - Position: Mentor
-    Organization: ME PhD peer mentorship program, Stanford University
-    StartDate: October 2024
+  - Position: Quantitative Research Intern
+    Organization: Qube Research & Technologies, London UK
+    StartDate: June 2025
     EndDate: Present
 
   - Position: Graduate Student Researcher 
@@ -59,7 +59,12 @@ HonorsAndAwards:
   Title: Honors and Awards
   Description: 
   sub:
-    - Title: SIAM Student travel award
+    - Title: SIAM Student Travel Award
+      Date: July 2025
+      Institution: SIAM
+      Description: Student travel award to attend the SIAM Conference on Control and Its Applications (CT25).
+
+    - Title: SIAM Student Travel Award
       Date: October 2024
       Institution: SIAM
       Description: Student travel award to attend the 1st SIAM North and Central California Section Meeting.

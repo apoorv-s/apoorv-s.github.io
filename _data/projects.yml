@@ -1,21 +1,19 @@
-ResearchProject:
+SelectedProject:
   - title: Imporving Particle Filters using Deep Probabilistic Models
     institution: Stanford University
     dates: January 2024 - Present
-    description: The research centers on utilizing deep probabilistic models to enhance the efficiency of particle filters while addressing the well-known issue of filter divergence in high-dimensional state spaces.
+    description: The research centers on utilizing learned deep probabilistic models to enhance the efficiency of particle filters by addressing the well-known issue of filter divergence in high-dimensional state spaces.
     advisors:
       - advisor1:
         advisorName: Prof. Eric Darve
-        advisorLink: https://nps.edu/faculty-profiles/-/cv/wkang
-      - advisor2:
-        advisorName: Prof. Daniel Tartakovsky
-        advisorLink: https://profiles.stanford.edu/daniel-tartakovsky
-    projectPicture: assets/images/project.jpg
+        advisorLink: https://profiles.stanford.edu/eric-darve
+    projectPicture: assets/images/projects/PF.png
 
-  - title: System Identification under Binary Observations
+  - title: Information Worth and Assimilation of Binary Data
     institution: Stanford University
     dates: October 2023 - Present
-    description: The research is focused on evaluating the identifiability of system states and parameters when dealing with binary observations and deriving effective strategies that maximize the utility of the limited information provided by binary observations. 
+    papers: (<a href = "https://doi.org/10.1137/24M1720159">Paper</a>, <a href = "">Github</a>)
+    description: The research is focused on evaluating the identifiability of system states and parameters when dealing with binary observations and designing computationally tractable algorithms that maximize the utility of the limited information provided by binary observations in estimating the state and parameters of the system. 
     advisors:
       - advisor1:
         advisorName: Prof. Wei Kang
@@ -23,8 +21,28 @@ ResearchProject:
       - advisor2:
         advisorName: Prof. Daniel Tartakovsky
         advisorLink: https://profiles.stanford.edu/daniel-tartakovsky
-    projectPicture: assets/images/project.jpg
+    projectPicture: assets/images/projects/BinaryDA.jpg
 
+  - title: Optimal Experimental Design using Reinforcement Learning 
+    description: The project tackles the Optimal Experimental Design (OED) problem in spatiotemporal systems, where selecting sensor locations is computationally challenging due to combinatorial complexity. Using Reinforcement Learning, we reformulate OED as a sequential decision-making task and develop Deep Q-Learning and Monte Carlo Tree Search frameworks to optimize sensor placement. Our approach offers a scalable and adaptive alternative to traditional heuristic methods, demonstrating promising results on PDE-based systems such as advection, Burgers’, and advection-diffusion-reaction equations. 
+    papers: (<a href = "https://github.com/apoorv-s/Optimal-Experimental-Design-using-RL/blob/main/Assets/Project_report.pdf">Project Report</a>, <a href = "https://github.com/apoorv-s/Optimal-Experimental-Design-using-RL">Github</a>)
+    dates: January 2025 - March 2025
+    className: Reinforcement Learning
+    univName: Stanford University
+    classLink: https://web.stanford.edu/class/cs234/
+    projectPicture: assets/images/projects/RL.png
+
+  - title: Diffusion Model for Learned Optimizers 
+    description: The project focuses on solving ill-conditioned inverse problems prevalent in engineering using Denoising Diffusion Probabilistic Models (DDPMs). Unlike deterministic optimization, our probabilistic approach captures the diverse solutions inherent in these problems. By leveraging conditional DDPMs, it offer a principled method for sampling multiple solutions, providing versatility and reliability. Our work demonstrates promising results in estimating 3D human pose from 2D keypoints, showcasing the effectiveness of our transformer-based design. 
+    papers: (<a href = "assets/documents/projectReports/cs236_project_final_report.pdf">Project Report</a>, <a href = "https://github.com/apoorv-s/Denoising-Diffusion-for-Inverse-Problems">Github</a>)
+    dates: September 2023 - December 2023
+    className: Deep Generative Models
+    univName: Stanford University
+    classLink: https://deepgenerativemodels.github.io/
+    projectPicture: assets/images/projects/DDPMs.jpg
+
+
+ResearchProject:
   - title: Kinetic Defect for Hyperbolic Conservation Laws
     institution: Stanford University
     dates: January 2023 - August 2023
@@ -34,7 +52,7 @@ ResearchProject:
       - advisor1:
         advisorName: Prof. Daniel Tartakovsky
         advisorLink: https://profiles.stanford.edu/daniel-tartakovsky
-    projectPicture: assets/images/project.jpg
+    projectPicture: assets/images/projects/KED.png
 
   - title: Feature-Informed Data Assimilation
     institution: Stanford University
@@ -76,19 +94,6 @@ ResearchProject:
         advisorLink: https://profiles.stanford.edu/daniel-tartakovsky
     projectPicture: assets/images/projects/HyporheicZone.jpg
 
-
-  # TODO
-  # - title: High-Precision Geosteering using RL and Particle Filters
-  #   institution: Stanford University
-  #   dates: October 2021 - April 2022
-  #   papers: (<a href = "https://doi.org/10.1016/j.jcp.2022.110682">Paper</a>)
-  #   description: The project aimed at developing a high-precision geosteering strategy for directional drilling in oil and gas wells. The study combined Reinforcement Learning (RL) and Particle Filters (PF) to estimate the subsurface properties and optimize the drilling path. The RL agent learned the optimal drilling path by minimizing the distance between the actual and target locations, while the PF estimated the subsurface properties using noisy measurements. The proposed strategy demonstrated superior performance in terms of accuracy and computational efficiency compared to traditional geosteering methods.
-  #   advisors:
-  #     - advisor1:
-  #       advisorName: Prof. Daniel Tartakovsky
-  #       advisorLink: https://profiles.stanford.edu/daniel-tartakovsky
-  #   projectPicture: assets/images/projects/Geosteering.jpg
-
   - title: Parameter Estimation in Stiff Systems
     institution: Los Alamos National Lab
     dates: July 2023 - September 2023
@@ -102,6 +107,7 @@ ResearchProject:
       #   advisorName: Prof. Daniel Tartakovsky
       #   advisorLink: https://public.lanl.gov/balu/ 
     projectPicture: assets/images/projects/LotkaVolterraDA.jpg
+
 
   - title: Mechanical Metamaterials, Non-Affine Deformations and Deployable Structures
     institution: IIT Bombay
@@ -145,16 +151,23 @@ ResearchProject:
     projectPicture: assets/images/projects/StructuralOptimization.jpg
 
 
-AcademicProject:
-  - title: Diffusion Model for Learned Optimizers 
-    description: The project focuses on solving ill-conditioned inverse problems prevalent in engineering using Denoising Diffusion Probabilistic Models (DDPMs). Unlike deterministic optimization, our probabilistic approach captures the diverse solutions inherent in these problems. By leveraging conditional DDPMs, it offer a principled method for sampling multiple solutions, providing versatility and reliability. Our work demonstrates promising results in estimating 3D human pose from 2D keypoints, showcasing the effectiveness of our transformer-based design. 
-    papers: (<a href = "assets/documents/projectReports/cs236_project_final_report.pdf">Project Report</a>, <a href = "https://github.com/apoorv-s/Denoising-Diffusion-for-Inverse-Problems">Github</a>)
-    dates: September 2023 - December 2023
-    className: Deep Generative Models
-    univName: Stanford University
-    classLink: https://deepgenerativemodels.github.io/
-    projectPicture: assets/images/projects/DDPMs.jpg
 
+  # TODO
+  # - title: High-Precision Geosteering using RL and Particle Filters
+  #   institution: Stanford University
+  #   dates: October 2021 - April 2022
+  #   papers: (<a href = "https://doi.org/10.1016/j.jcp.2022.110682">Paper</a>)
+  #   description: The project aimed at developing a high-precision geosteering strategy for directional drilling in oil and gas wells. The study combined Reinforcement Learning (RL) and Particle Filters (PF) to estimate the subsurface properties and optimize the drilling path. The RL agent learned the optimal drilling path by minimizing the distance between the actual and target locations, while the PF estimated the subsurface properties using noisy measurements. The proposed strategy demonstrated superior performance in terms of accuracy and computational efficiency compared to traditional geosteering methods.
+  #   advisors:
+  #     - advisor1:
+  #       advisorName: Prof. Daniel Tartakovsky
+  #       advisorLink: https://profiles.stanford.edu/daniel-tartakovsky
+  #   projectPicture: assets/images/projects/Geosteering.jpg
+
+
+
+
+AcademicProject:
   - title: Optimal Control for Grid Balancing
     description:  This work considers an electric power grid connected to multiple houses equipped with solar electric systems and rechargeable batteries and focuses on optimizing the charge-discharge policy of rechargeable batteries under uncertainties and variability in the demand and solar power generated. The discretized problem is solved using Model Predictive Control (MPC) in conjunction with convex programming. A linear approximation of the battery dynamics is utilized to ensure feasibility and safety constraints. 
     papers: (<a href = "assets/documents/projectReports/AA_203_Project.pdf">Project Report</a>, <a href = "https://github.com/apoorv-s/GridOptimization_MPC">Github</a>)
@@ -187,3 +200,5 @@ AcademicProject:
   #   univName: IIT Bombay
   #   classLink: 
   #   projectPicture: assets/images/project.jpg
+
+  
