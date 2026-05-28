@@ -1,7 +1,7 @@
 _site
 .jekyll-cache
 .bundle
-Gemfile
+# Gemfile
 Gemfile.lock
 .gitattributes
 _site/**
