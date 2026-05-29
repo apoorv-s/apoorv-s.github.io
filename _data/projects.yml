@@ -1,7 +1,21 @@
 SelectedProject:
-  - title: Imporving Particle Filters using Deep Probabilistic Models
+  - title: Data Assimilation using Shock Position-based Observations
     institution: Stanford University
-    dates: January 2024 - Present
+    dates: January 2025 - Present
+    papers: (Ongoing)
+    description: The research focuses on developing a data assimilation framework that utilizes shock position-based observations to estimate the state and parameters of systems governed by hyperbolic conservation laws. The framework addresses the challenges posed by the discontinuous nature of shock waves and the limited information provided by shock position observations, aiming to enhance the accuracy and efficiency of data assimilation in such systems.
+    advisors:
+      - advisor1:
+        advisorName: Prof. Wei Kang
+        advisorLink: https://nps.edu/faculty-profiles/-/cv/wkang
+      - advisor2:
+        advisorName: Prof. Daniel Tartakovsky
+        advisorLink: https://profiles.stanford.edu/daniel-tartakovsky
+    projectPicture: assets/images/projects/ShockDA.jpg
+
+  - title: Improving Particle Filters using Deep Probabilistic Models
+    institution: Stanford University
+    dates: January 2024 - May 2026
     description: The research centers on utilizing learned deep probabilistic models to enhance the efficiency of particle filters by addressing the well-known issue of filter divergence in high-dimensional state spaces.
     advisors:
       - advisor1:
@@ -11,7 +25,7 @@ SelectedProject:
 
   - title: Information Worth and Assimilation of Binary Data
     institution: Stanford University
-    dates: October 2023 - Present
+    dates: October 2023 - June 2025
     papers: (<a href = "https://doi.org/10.1137/24M1720159">Paper</a>, <a href = "">Github</a>)
     description: The research is focused on evaluating the identifiability of system states and parameters when dealing with binary observations and designing computationally tractable algorithms that maximize the utility of the limited information provided by binary observations in estimating the state and parameters of the system. 
     advisors:
@@ -33,7 +47,7 @@ SelectedProject:
     projectPicture: assets/images/projects/RL.png
 
   - title: Diffusion Model for Learned Optimizers 
-    description: The project focuses on solving ill-conditioned inverse problems prevalent in engineering using Denoising Diffusion Probabilistic Models (DDPMs). Unlike deterministic optimization, our probabilistic approach captures the diverse solutions inherent in these problems. By leveraging conditional DDPMs, it offer a principled method for sampling multiple solutions, providing versatility and reliability. Our work demonstrates promising results in estimating 3D human pose from 2D keypoints, showcasing the effectiveness of our transformer-based design. 
+    description: The project focuses on solving ill-conditioned inverse problems prevalent in engineering using Denoising Diffusion Probabilistic Models (DDPMs). Unlike deterministic optimization, our probabilistic approach captures the diverse solutions inherent in these problems. By leveraging conditional DDPMs, it offers a principled method for sampling multiple solutions, providing versatility and reliability. Our work demonstrates promising results in estimating 3D human pose from 2D keypoints, showcasing the effectiveness of our transformer-based design. 
     papers: (<a href = "assets/documents/projectReports/cs236_project_final_report.pdf">Project Report</a>, <a href = "https://github.com/apoorv-s/Denoising-Diffusion-for-Inverse-Problems">Github</a>)
     dates: September 2023 - December 2023
     className: Deep Generative Models
@@ -84,7 +98,7 @@ ResearchProject:
   - title: Identifying reaction dynamics in the Hyporheic zone
     institution: Stanford University
     dates: July 2024 - Present
-    description: Developing regression models to capture the chemical dynamics within the hyporheic zone (the interface between the riverbed and groundwater) by integrating experimental data with known physical principles. These models are being used to estimate key parameters and quantify uncertainty, enhancing the understanding of complex subsurface processes. (image courtsey - Trout Unlimited Canada Facebook page) 
+    description: Developing regression models to capture the chemical dynamics within the hyporheic zone (the interface between the riverbed and groundwater) by integrating experimental data with known physical principles. These models are being used to estimate key parameters and quantify uncertainty, enhancing the understanding of complex subsurface processes. (image courtesy - Trout Unlimited Canada Facebook page) 
     advisors:
       - advisor1:
         advisorName: Prof. Daniele Tonina
@@ -140,7 +154,7 @@ ResearchProject:
   - title: Stress Ratio based Structural Optimization using Genetic Algorithm
     institution: Stanford University
     dates: July 2017 - August 2018
-    description: This project involved using Genetic Algorithm (GA) to optimize a Fiber Reinforced Plastic based structure with more than 13,000 members. The stress-based Member Utilization Ratio served as the fitness function for population evaluation and reproduction. Various optimization algorithms, including Simplex method, Newton-Ralphson, Conjugate Gradient, Sequential Quadratic Programming, Simulated Annealing, and GA, were learned and implemented.
+    description: This project involved using Genetic Algorithm (GA) to optimize a Fiber Reinforced Plastic based structure with more than 13,000 members. The stress-based Member Utilization Ratio served as the fitness function for population evaluation and reproduction. Various optimization algorithms, including Simplex method, Newton-Raphson, Conjugate Gradient, Sequential Quadratic Programming, Simulated Annealing, and GA, were learned and implemented.
     advisors:
       - advisor1:
         advisorName: Prof. Venkata S. K. Delhi

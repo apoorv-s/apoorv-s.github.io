@@ -25,3 +25,4 @@ gem "racc", "~> 1.8"
 gem "observer", "~> 0.1.2"
 
 gem "liquid", "~> 4.0.4"
+gem "jekyll-sass-converter", "~> 2.2"
