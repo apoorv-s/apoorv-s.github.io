@@ -60,7 +60,7 @@ ResearchProject:
   - title: Kinetic Defect for Hyperbolic Conservation Laws
     institution: Stanford University
     dates: January 2023 - August 2023
-    papers: (Under Review)
+    papers: (<a href = "https://doi.org/10.1016/j.jcp.2026.115181">Paper</a>, <a href = "">Github</a>)
     description: The research delves into the linear representation of conservation laws provided by kinetic formulation, specifically for problems with discontinuous solutions. It looks at a procedure to identify the kinetic defect measure, proven to exist (given the entropy solution exists) but analytically unknown. Successful identification of the kinetic defect measure provides an alternate representation of shock features, which is valuable for handling shock position-based observations in Feature-Informed Data Assimilation (FIDA).
     advisors:
       - advisor1:
